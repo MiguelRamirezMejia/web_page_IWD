@@ -1,0 +1,287 @@
+body {
+    font-family: arial, sans-serif;
+    
+}
+
+
+
+
+
+
+.contenedor-redes-sociales {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 100px 0;
+}
+
+.video{
+    
+    border-radius: 20px;
+    width: 560px;
+    height: 315px;
+}
+
+.contenedor-redes-sociales a {
+    position: relative;
+    display: inline-block;
+    height: 36px;
+    width: 160px;
+    line-height: 35px;
+    padding: 0;
+    color: #fff;
+    border-radius: 50px;
+    background: #fff;
+    margin: 5px;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.24);
+    ;
+}
+
+.contenedor-redes-sociales a:hover span.circulo {
+    left: 100%;
+    margin-left: -35px;
+    background: #fff;
+}
+
+.contenedor-redes-sociales a:hover span.titulo {
+    opacity: 0;
+}
+
+.contenedor-redes-sociales a:hover span.titulo-hover {
+    opacity: 1;
+    color: #fff;
+}
+
+.contenedor-redes-sociales a span.titulo-hover {
+    opacity: 0;
+}
+
+.contenedor-redes-sociales a span.circulo {
+    display: block;
+    color: #fff;
+    position: absolute;
+    float: left;
+    margin: 3px;
+    line-height: 30px;
+    height: 30px;
+    width: 30px;
+    top: 0;
+    left: 0;
+    transition: all 0.5s;
+    border-radius: 50%;
+}
+
+.contenedor-redes-sociales a span.circulo i {
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.contenedor-redes-sociales a span.titulo, .contenedor-redes-sociales a span.titulo-hover {
+    position: absolute;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 400;
+    transition: .5s;
+}
+
+.contenedor-redes-sociales a span.titulo {
+    right: 15px
+}
+
+.contenedor-redes-sociales a span.titulo-hover {
+    left: 15px
+}
+
+
+.footer{
+    background-color: #1D293F;
+}
+
+
+.footer__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 60px;
+
+    }
+
+    .footer__title{
+        font-weight: 300;
+        font-size: 2rem;
+        margin-bottom:1px;
+    }
+
+    .footer_name{
+        text-align: center;
+    }
+
+
+
+
+
+
+    .testimony{
+        background-color: #e5e5f7;
+    }
+    
+    .testimony__container{
+        display: grid;
+        grid-template-columns: 50px 1fr 50px;
+        gap: 1em;
+        align-items: center;
+    }
+    
+    .testimony__body{
+        display: grid;
+        grid-template-columns: 1fr max-content;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2em;
+        grid-column: 2/3;
+        grid-row: 1/2;
+        opacity: 0;
+        pointer-events: none;
+    }
+    
+    
+    .testimony__body--show{
+        pointer-events: unset;
+        opacity: 1;
+        transition: opacity 1.5s ease-in-out;
+    }
+    
+    .testimony__img{
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        object-fit: cover;
+        object-position: 50% 30%;
+    }
+    
+    .testimony__texts{
+        max-width: 700px;
+    }
+    
+    .testimony__course{
+        background-color: royalblue;
+        color: #fff;
+        display: inline-block;
+        padding: 5px;
+    }
+    
+    .testimony__arrow{
+        width: 90%;
+        cursor: pointer;
+    }
+
+/*----------Colores de los botones----------*/
+
+.contenedor-redes-sociales .linkedin {
+    border: 2px solid #3b5998;
+}
+
+.contenedor-redes-sociales .linkedin:hover, .contenedor-redes-sociales .linkedin span.circulo {
+    background: #3b5998;
+}
+
+.contenedor-redes-sociales .linkedin:hover span.circulo, .contenedor-redes-sociales .linkedin span.titulo {
+    color: #3b5998;
+}
+
+.contenedor-redes-sociales .twitter {
+    border: 2px solid #1da1f2;
+}
+
+.contenedor-redes-sociales .twitter:hover, .contenedor-redes-sociales .twitter span.circulo {
+    background: #1da1f2;
+}
+
+.contenedor-redes-sociales .twitter:hover span.circulo, .contenedor-redes-sociales .twitter span.titulo {
+    color: #1da1f2;
+}
+
+.contenedor-redes-sociales .instagram {
+    border: 2px solid #dd39bc;
+}
+
+.contenedor-redes-sociales .instagram:hover, .contenedor-redes-sociales .instagram span.circulo {
+    background: #dd39bc;
+}
+
+.contenedor-redes-sociales .instagram:hover span.circulo, .contenedor-redes-sociales .instagram span.titulo {
+    color: #dd39bc;
+
+}
+
+.contenedor-redes-sociales .telegram {
+    border: 2px solid #5c8bdd;
+}
+
+.contenedor-redes-sociales .telegram:hover, .contenedor-redes-sociales .telegram span.circulo {
+    background: #5c8bdd;
+}
+
+.contenedor-redes-sociales .telegram:hover span.circulo, .contenedor-redes-sociales .telegram span.titulo {
+    color: #5c8bdd;
+}
+
+.contenedor-redes-sociales .whatsapp {
+    border: 2px solid #51c235;
+}
+
+.contenedor-redes-sociales .whatsapp:hover, .contenedor-redes-sociales .whatsapp span.circulo {
+    background: #51c235;
+}
+
+.contenedor-redes-sociales .whatsapp:hover span.circulo, .contenedor-redes-sociales .whatsapp span.titulo {
+    color: #51c235;
+}
+
+.contenedor-redes-sociales .codepen {
+    border: 2px solid #040404;
+}
+
+.contenedor-redes-sociales .codepen:hover, .contenedor-redes-sociales .codepen span.circulo {
+    background: #040404;
+}
+
+.contenedor-redes-sociales .codepen:hover span.circulo, .contenedor-redes-sociales .codepen span.titulo {
+    color: #040404;
+}
+
+
+
+
+/*--------------Mediaqueries--------------*/
+
+@media screen and (max-width: 480px) {
+    .contenedor-redes-sociales a {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+}
+
+
+.contenedor-redes-sociales .github {
+    border: 2px solid #000000;
+}
+
+.contenedor-redes-sociales .github:hover, .contenedor-redes-sociales .github span.circulo {
+    background: #000000;
+}
+
+.contenedor-redes-sociales .github:hover span.circulo, .contenedor-redes-sociales .github span.titulo {
+    color: #000000;
+}
+
+
+
